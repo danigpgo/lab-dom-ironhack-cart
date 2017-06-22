@@ -45,7 +45,7 @@ function createTotalPriceItem () {
 }
 
 function createNewItemRow(itemName, itemUnitPrice){
-  var newItemRow = '<div class="row"><div class="product"><span>'+itemName+'</span></div><div class="price"><span class="unitPrice">'+"$ "+itemUnitPrice+'</span></div>'+createQuantityNode()+createTotalPriceItem()+createDeleteButton()+'</div>';
+  var newItemRow = '<div class="row"><div class="product"><span>'+itemName+'</span></div><div class="price"><span class="unitPrice">'+itemUnitPrice+'</span></div>'+createQuantityNode()+createTotalPriceItem()+createDeleteButton()+'</div>';
   var section = document.getElementById('parent');
   section.innerHTML += newItemRow;
 }

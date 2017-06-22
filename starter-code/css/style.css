@@ -2,6 +2,7 @@ body {
   font-family: helvetica;
   color: #2B2F30;
   font-size: 14px;
+
 }
 
 input {
@@ -21,9 +22,6 @@ input {
   color:#888;
 }
 
-.container {
-
-}
 
 .info-container {
 
@@ -36,7 +34,9 @@ border-radius: 5px;
 margin-left: 7%;
 margin-right: 7%;
 padding-bottom: 50px;
-box-shadow: 1px 1px 75px #a7a7a7;
+box-shadow: 1px 1px 25px #a7a7a7;
+background-color: white;
+
 
 
 }
@@ -120,24 +120,8 @@ box-shadow: 1px 1px 75px #a7a7a7;
 }
 
 .btn-delete {
-    margin-left: 10px;
-    color: #fff;
-    background-color: #2B2F30;
-    border-color: #CF000F;
-    display: inline-block;
-    width: 100px;
-    height: 28px;
-    font-size: 14px;
-    border-radius: 5px;
-    padding-top: 10px;
-    text-align: center;  }
-
-.btn-delete:hover {
-    background-color: #b24047;
-}
-
-.all-delete {
-    margin: 00px 40px 40px 0px;
+    margin-right: 9%;
+    margin-top:3.5%;
     color: #fff;
     background-color: #2B2F30;
     border-color: #CF000F;
@@ -149,9 +133,12 @@ box-shadow: 1px 1px 75px #a7a7a7;
     padding-top: 10px;
     text-align: center;
     float: right;
+    box-shadow: 1px 1px 15px #a7a7a7;
+
   }
 
-.all-delete:hover {
+
+.btn-delete:hover {
     background-color: #b24047;
 }
 
@@ -176,6 +163,8 @@ box-shadow: 1px 1px 75px #a7a7a7;
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
+  box-shadow: 1px 1px 15px #a7a7a7;
+
 }
 
 .btn-success {
@@ -190,6 +179,8 @@ box-shadow: 1px 1px 75px #a7a7a7;
     margin: auto;
     border: solid 1px #2B2F30;
     margin-top: 2%;
+    box-shadow: 1px 1px 15px #a7a7a7;
+
 }
 
 .btn-success:hover {
@@ -211,6 +202,8 @@ box-shadow: 1px 1px 75px #a7a7a7;
     text-align: center;
     border: solid 1px #2B2F30;
     margin-left: 25px;
+    box-shadow: 1px 1px 15px #a7a7a7;
+
 
 }
 
